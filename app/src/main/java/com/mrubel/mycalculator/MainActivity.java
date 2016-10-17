@@ -213,6 +213,13 @@ public class MainActivity extends AppCompatActivity {
                                 _output.setText((q1*q2)+"");
                                 showing_typed = "";
                                 break;
+                            case '+':
+                                String p2[] = s.split("[+]");
+                                int q3 = Integer.parseInt(p2[0]);
+                                int q4 = Integer.parseInt(p2[1]);
+                                _output.setText((q3+q4)+"");
+                                showing_typed = "";
+                                break;
                         }
                     }
                 }
